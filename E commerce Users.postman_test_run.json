@@ -1,0 +1,170 @@
+{
+	"id": "1f1e8b3f-1aed-4cb4-b68c-130c523e0874",
+	"name": "E commerce Users",
+	"timestamp": "2022-03-11T03:37:33.270Z",
+	"collection_id": "19955498-de34912d-206f-4838-ac99-9406667933ae",
+	"folder_id": 0,
+	"environment_id": "19955498-5de9023a-b3a2-4199-936c-d4eb5cbc3915",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0b80781d-1adb-4847-8b9d-d44c203b9025",
+			"name": "SignUp",
+			"time": 3204,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				3709,
+				3226,
+				3204
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "328edebd-4615-447e-80db-39dbfe3f8336",
+			"name": "Login",
+			"time": 2803,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				2769,
+				2775,
+				2803
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a5599ae0-19d1-4527-a9da-3cfb37c920ea",
+			"name": "GetAllUsers",
+			"time": 1263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1265,
+				1262,
+				1263
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "db32c98d-48cb-4464-8203-64ce76f95c0c",
+			"name": "Delete By Id",
+			"time": 659,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				663,
+				659,
+				659
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 24257,
+	"collection": {
+		"requests": [
+			{
+				"id": "0b80781d-1adb-4847-8b9d-d44c203b9025",
+				"method": "POST"
+			},
+			{
+				"id": "328edebd-4615-447e-80db-39dbfe3f8336",
+				"method": "POST"
+			},
+			{
+				"id": "a5599ae0-19d1-4527-a9da-3cfb37c920ea",
+				"method": "GET"
+			},
+			{
+				"id": "db32c98d-48cb-4464-8203-64ce76f95c0c",
+				"method": "DELETE"
+			}
+		]
+	}
+}
